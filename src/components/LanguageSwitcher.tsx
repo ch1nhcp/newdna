@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
     setCurrentLanguage(savedLanguage);
 
     const urlLanguage = pathname.split("/")[1];
-    if (["en", "ar", "zh", "es", "ja"].includes(urlLanguage)) {
+    if (["en", "ar", "zh", "es", "ja", "vi"].includes(urlLanguage)) {
       setCurrentLanguage(urlLanguage);
     }
   }, [pathname]);
@@ -35,7 +35,7 @@ const LanguageSwitcher = () => {
     document.cookie = `NEXT_LOCALE=${newLanguage}; path=/;`;
 
     const segments = pathname.split("/");
-    if (["en", "ar", "zh", "es", "ja"].includes(segments[1])) {
+    if (["en", "ar", "zh", "es", "ja", "vi"].includes(segments[1])) {
       segments[1] = newLanguage;
     } else {
       segments.splice(1, 0, newLanguage);
@@ -51,6 +51,7 @@ const LanguageSwitcher = () => {
     zh: "中文",
     es: "Español",
     ja: "日本語",
+    vi: "Tiếng Việt",
   };
 
   return (
@@ -75,6 +76,9 @@ const LanguageSwitcher = () => {
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => changeLanguage("ja")}>
           日本語
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => changeLanguage("vi")}>
+          Tiếng Việt
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

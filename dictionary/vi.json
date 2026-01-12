@@ -1,0 +1,43 @@
+{
+    "Index": {
+        "boilerplateName": "Mẫu Next.js i18n",
+        "title": "Mẫu Next 15 với i18n và Shadcn UI",
+        "description": "Một điểm khởi đầu mạnh mẽ cho ứng dụng web đa ngôn ngữ và có thể truy cập của bạn.",
+        "cloneRepository": "Sao chép Kho lưu trữ",
+        "leaveStar": "Để lại một Sao",
+        "howToUse": "Cách Sử dụng",
+        "gettingStarted": "Bắt Đầu",
+        "installation": "Cài đặt",
+        "howToContribute": "Cách Đóng góp",
+        "omitrtlUsage": "Cách Sử dụng OmitRTL",
+        "OmitRTLInstruction": "Để sử dụng OmitRTL, chỉ cần bọc thành phần mà bạn muốn loại bỏ hỗ trợ RTL bằng thành phần OmitRTL.",
+        "contribute": "Đóng góp",
+        "installationSteps": {
+            "cloneRepository": "Sao chép kho lưu trữ:",
+            "installDependencies": "Cài đặt các thư viện phụ thuộc:",
+            "startDevServer": "Khởi động máy chủ phát triển:"
+        },
+        "contributeSteps": {
+            "fork": "Phân nhánh kho lưu trữ",
+            "createBranch": "Tạo một nhánh mới:",
+            "commit": "Cam kết các thay đổi của bạn:",
+            "push": "Đẩy lên nhánh:",
+            "pullRequest": "Tạo một Yêu cầu Kéo mới"
+        },
+        "error": {
+            "server": "Lỗi Máy chủ Nội bộ",
+            "sorry": "Xin lỗi, chúng tôi gặp sự cố không mong muốn trên máy chủ của mình.",
+            "tryAgain": "Thử lại sau.",
+            "returnHome": "Quay lại trang chủ"
+        }
+    },
+    "Footer": {
+        "copyright": "© 2025 Mẫu Next.js i18n. Mã nguồn mở theo giấy phép MIT.",
+        "githubLink": "GitHub"
+    },
+    "Metadata": {
+        "title": "Mẫu Next.js i18n - Mẫu Khởi đầu Đa ngôn ngữ",
+        "description": "Bộ khởi động Next.js quốc tế hóa (i18n) với hỗ trợ tiếng Ả Rập, Trung Quốc, Anh, Tây Ban Nha và Nhật Bản. Bao gồm shadcn UI, chuyển đổi chủ đề và hỗ trợ RTL.",
+        "keywords": "Next.js, i18n, quốc tế hóa, Ả Rập, Trung Quốc, Tây Ban Nha, Nhật Bản, đa ngôn ngữ, mẫu, mẫu khởi đầu, shadcn UI, hỗ trợ RTL"
+    }
+}

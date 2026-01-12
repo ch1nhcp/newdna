@@ -135,6 +135,7 @@ export async function generateMetadata({
         zh: `${DOMAIN}/zh`,
         es: `${DOMAIN}/es`,
         ja: `${DOMAIN}/ja`,
+        vi: `${DOMAIN}/vi`,
       },
     },
     robots: {
