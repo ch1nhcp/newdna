@@ -18,25 +18,25 @@ export function FeaturesSection() {
       icon: FEATURE_ICONS[0],
       title: t("features.items.0.title"),
       description: t("features.items.0.description"),
-      gradient: "from-blue-500 to-cyan-500",
+      color: "bg-blue-500",
     },
     {
       icon: FEATURE_ICONS[1],
       title: t("features.items.1.title"),
       description: t("features.items.1.description"),
-      gradient: "from-purple-500 to-pink-500",
+      color: "bg-purple-500",
     },
     {
       icon: FEATURE_ICONS[2],
       title: t("features.items.2.title"),
       description: t("features.items.2.description"),
-      gradient: "from-green-500 to-emerald-500",
+      color: "bg-green-500",
     },
     {
       icon: FEATURE_ICONS[3],
       title: t("features.items.3.title"),
       description: t("features.items.3.description"),
-      gradient: "from-orange-500 to-yellow-500",
+      color: "bg-orange-500",
     },
   ];
 
@@ -52,7 +52,7 @@ export function FeaturesSection() {
           className="text-center mb-12 lg:mb-16"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-primary">
               {t("features.titleHighlight")}
             </span>{" "}
             {t("features.titleRest")}
@@ -77,7 +77,7 @@ export function FeaturesSection() {
                   <motion.div
                     whileHover={{ scale: 1.1, rotate: 5 }}
                     transition={{ duration: 0.2 }}
-                    className={`w-12 h-12 rounded-xl bg-gradient-to-br ${feature.gradient} flex items-center justify-center mb-4 shadow-lg`}
+                    className={`w-12 h-12 rounded-xl ${feature.color} flex items-center justify-center mb-4 shadow-lg`}
                   >
                     <feature.icon className="h-6 w-6 text-white" />
                   </motion.div>

@@ -46,7 +46,7 @@ export function HowItWorksSection() {
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             {t("howItWorks.titleStart")}{" "}
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-primary">
               {t("howItWorks.titleHighlight")}
             </span>
           </h2>
@@ -58,7 +58,7 @@ export function HowItWorksSection() {
         {/* Steps */}
         <div className="relative">
           {/* Connection Line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 via-purple-500 to-blue-500 -translate-y-1/2 z-0" />
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-primary/50 -translate-y-1/2 z-0" />
 
           <div className="grid lg:grid-cols-3 gap-8 lg:gap-12">
             {steps.map((step, index) => (
@@ -77,10 +77,10 @@ export function HowItWorksSection() {
                     transition={{ duration: 0.2 }}
                     className="relative mb-6"
                   >
-                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 flex items-center justify-center shadow-xl shadow-blue-500/25">
-                      <step.icon className="h-8 w-8 text-white" />
+                    <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center shadow-xl shadow-primary/25">
+                      <step.icon className="h-8 w-8 text-primary-foreground" />
                     </div>
-                    <span className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-background border-2 border-blue-500 flex items-center justify-center text-sm font-bold text-blue-600">
+                    <span className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-background border-2 border-primary flex items-center justify-center text-sm font-bold text-primary">
                       {step.step}
                     </span>
                   </motion.div>
