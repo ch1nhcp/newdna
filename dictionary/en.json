@@ -1,4 +1,106 @@
 {
+  "Landing": {
+    "companyName": "YourAI",
+    "nav": {
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "about": "About",
+      "contact": "Contact Us"
+    },
+    "hero": {
+      "badge": "AI-Powered Solutions",
+      "titleHighlight": "Intelligent Chatbots",
+      "titleRest": "for Your Business",
+      "description": "Transform customer interactions with our cutting-edge AI chatbots. Automate support, boost engagement, and scale your business 24/7.",
+      "primaryCta": "Contact Us",
+      "secondaryCta": "Learn More",
+      "chatTitle": "AI Assistant",
+      "chatUser": "How can AI help my business?",
+      "chatAi": "I can help automate customer support, answer questions 24/7, and provide personalized recommendations to increase engagement!",
+      "typing": "AI is thinking..."
+    },
+    "features": {
+      "titleHighlight": "Powerful Features",
+      "titleRest": "for Modern Business",
+      "description": "Our AI chatbots come packed with features designed to transform how you interact with customers.",
+      "items": [
+        {
+          "title": "Natural Conversations",
+          "description": "Advanced NLP ensures human-like conversations that understand context and intent."
+        },
+        {
+          "title": "Lightning Fast",
+          "description": "Instant responses powered by optimized AI models for seamless customer experience."
+        },
+        {
+          "title": "Enterprise Security",
+          "description": "Bank-grade encryption and compliance with GDPR, SOC2, and industry standards."
+        },
+        {
+          "title": "Multi-language Support",
+          "description": "Communicate with customers worldwide in their native language automatically."
+        }
+      ]
+    },
+    "howItWorks": {
+      "titleStart": "How It",
+      "titleHighlight": "Works",
+      "description": "Get started with our AI chatbot in three simple steps.",
+      "steps": [
+        {
+          "title": "Tell Us Your Needs",
+          "description": "Share your business requirements and goals. We'll understand your unique challenges."
+        },
+        {
+          "title": "We Build & Customize",
+          "description": "Our team configures and trains the AI to match your brand voice and workflows."
+        },
+        {
+          "title": "Launch & Scale",
+          "description": "Deploy your AI chatbot and watch it handle thousands of conversations effortlessly."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Customer Experience?",
+      "description": "Get in touch with our team to discuss how AI can help your business grow.",
+      "contact": {
+        "email": "Email",
+        "phone": "Phone",
+        "location": "Location"
+      },
+      "formTitle": "Send us a message",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "John Doe",
+        "email": "Email",
+        "emailPlaceholder": "john@company.com",
+        "company": "Company",
+        "companyPlaceholder": "Your Company",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project...",
+        "submit": "Send Message"
+      }
+    },
+    "footer": {
+      "description": "Building intelligent AI solutions that transform how businesses connect with their customers.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "links": {
+        "features": "Features",
+        "howItWorks": "How It Works",
+        "pricing": "Pricing",
+        "about": "About Us",
+        "blog": "Blog",
+        "careers": "Careers",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      },
+      "copyright": "© {year} YourAI. All rights reserved.",
+      "madeWith": "Made with AI"
+    }
+  },
   "Index": {
     "boilerplateName": "Next.js i18n Template",
     "title": "Next 15 Template with i18n and Shadcn UI",
@@ -31,14 +133,13 @@
       "returnHome": "Return home"
     }
   },
-
   "Footer": {
     "copyright": "© 2025 Next.js i18n Template. Open source under MIT license.",
     "githubLink": "GitHub"
   },
   "Metadata": {
-    "title": "Next.js i18n Template - Multilingual Starter Template",
-    "description": "Next.js internationalization (i18n) starter kit with Arabic, Chinese, English, Spanish, and Japanese support. Includes shadcn UI, theme switching, and RTL support.",
-    "keywords": "Next.js, i18n, internationalization, Arabic, Chinese, Spanish, Japanese, multilingual, template, starter template, shadcn UI, RTL support"
+    "title": "YourAI - Intelligent AI Chatbots for Business",
+    "description": "Transform customer interactions with cutting-edge AI chatbots. Automate support, boost engagement, and scale your business 24/7.",
+    "keywords": "AI chatbot, customer support, artificial intelligence, business automation, conversational AI, virtual assistant"
   }
 }

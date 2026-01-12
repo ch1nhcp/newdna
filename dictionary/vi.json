@@ -1,43 +1,145 @@
 {
-    "Index": {
-        "boilerplateName": "Mẫu Next.js i18n",
-        "title": "Mẫu Next 15 với i18n và Shadcn UI",
-        "description": "Một điểm khởi đầu mạnh mẽ cho ứng dụng web đa ngôn ngữ và có thể truy cập của bạn.",
-        "cloneRepository": "Sao chép Kho lưu trữ",
-        "leaveStar": "Để lại một Sao",
-        "howToUse": "Cách Sử dụng",
-        "gettingStarted": "Bắt Đầu",
-        "installation": "Cài đặt",
-        "howToContribute": "Cách Đóng góp",
-        "omitrtlUsage": "Cách Sử dụng OmitRTL",
-        "OmitRTLInstruction": "Để sử dụng OmitRTL, chỉ cần bọc thành phần mà bạn muốn loại bỏ hỗ trợ RTL bằng thành phần OmitRTL.",
-        "contribute": "Đóng góp",
-        "installationSteps": {
-            "cloneRepository": "Sao chép kho lưu trữ:",
-            "installDependencies": "Cài đặt các thư viện phụ thuộc:",
-            "startDevServer": "Khởi động máy chủ phát triển:"
+  "Landing": {
+    "companyName": "YourAI",
+    "nav": {
+      "features": "Tính năng",
+      "howItWorks": "Cách hoạt động",
+      "about": "Giới thiệu",
+      "contact": "Liên hệ"
+    },
+    "hero": {
+      "badge": "Giải pháp AI tiên tiến",
+      "titleHighlight": "Chatbot thông minh",
+      "titleRest": "cho Doanh nghiệp",
+      "description": "Chuyển đổi tương tác khách hàng với chatbot AI tiên tiến. Tự động hóa hỗ trợ, tăng tương tác và mở rộng doanh nghiệp 24/7.",
+      "primaryCta": "Liên hệ ngay",
+      "secondaryCta": "Tìm hiểu thêm",
+      "chatTitle": "Trợ lý AI",
+      "chatUser": "AI có thể giúp gì cho doanh nghiệp của tôi?",
+      "chatAi": "Tôi có thể giúp tự động hóa hỗ trợ khách hàng, trả lời câu hỏi 24/7 và đưa ra gợi ý cá nhân hóa để tăng tương tác!",
+      "typing": "AI đang suy nghĩ..."
+    },
+    "features": {
+      "titleHighlight": "Tính năng mạnh mẽ",
+      "titleRest": "cho Doanh nghiệp hiện đại",
+      "description": "Chatbot AI của chúng tôi được trang bị nhiều tính năng được thiết kế để thay đổi cách bạn tương tác với khách hàng.",
+      "items": [
+        {
+          "title": "Hội thoại tự nhiên",
+          "description": "NLP tiên tiến đảm bảo cuộc hội thoại giống con người, hiểu ngữ cảnh và ý định."
         },
-        "contributeSteps": {
-            "fork": "Phân nhánh kho lưu trữ",
-            "createBranch": "Tạo một nhánh mới:",
-            "commit": "Cam kết các thay đổi của bạn:",
-            "push": "Đẩy lên nhánh:",
-            "pullRequest": "Tạo một Yêu cầu Kéo mới"
+        {
+          "title": "Tốc độ nhanh chóng",
+          "description": "Phản hồi tức thì được hỗ trợ bởi các mô hình AI tối ưu cho trải nghiệm khách hàng mượt mà."
         },
-        "error": {
-            "server": "Lỗi Máy chủ Nội bộ",
-            "sorry": "Xin lỗi, chúng tôi gặp sự cố không mong muốn trên máy chủ của mình.",
-            "tryAgain": "Thử lại sau.",
-            "returnHome": "Quay lại trang chủ"
+        {
+          "title": "Bảo mật doanh nghiệp",
+          "description": "Mã hóa cấp ngân hàng và tuân thủ GDPR, SOC2 và các tiêu chuẩn ngành."
+        },
+        {
+          "title": "Hỗ trợ đa ngôn ngữ",
+          "description": "Giao tiếp với khách hàng trên toàn thế giới bằng ngôn ngữ mẹ đẻ của họ một cách tự động."
         }
+      ]
     },
-    "Footer": {
-        "copyright": "© 2025 Mẫu Next.js i18n. Mã nguồn mở theo giấy phép MIT.",
-        "githubLink": "GitHub"
+    "howItWorks": {
+      "titleStart": "Cách",
+      "titleHighlight": "hoạt động",
+      "description": "Bắt đầu với chatbot AI của chúng tôi chỉ trong ba bước đơn giản.",
+      "steps": [
+        {
+          "title": "Cho chúng tôi biết nhu cầu",
+          "description": "Chia sẻ yêu cầu và mục tiêu kinh doanh của bạn. Chúng tôi sẽ hiểu những thách thức riêng của bạn."
+        },
+        {
+          "title": "Chúng tôi xây dựng & tùy chỉnh",
+          "description": "Đội ngũ của chúng tôi cấu hình và huấn luyện AI để phù hợp với giọng điệu thương hiệu và quy trình làm việc của bạn."
+        },
+        {
+          "title": "Ra mắt & mở rộng",
+          "description": "Triển khai chatbot AI của bạn và xem nó xử lý hàng nghìn cuộc hội thoại một cách dễ dàng."
+        }
+      ]
     },
-    "Metadata": {
-        "title": "Mẫu Next.js i18n - Mẫu Khởi đầu Đa ngôn ngữ",
-        "description": "Bộ khởi động Next.js quốc tế hóa (i18n) với hỗ trợ tiếng Ả Rập, Trung Quốc, Anh, Tây Ban Nha và Nhật Bản. Bao gồm shadcn UI, chuyển đổi chủ đề và hỗ trợ RTL.",
-        "keywords": "Next.js, i18n, quốc tế hóa, Ả Rập, Trung Quốc, Tây Ban Nha, Nhật Bản, đa ngôn ngữ, mẫu, mẫu khởi đầu, shadcn UI, hỗ trợ RTL"
+    "cta": {
+      "title": "Sẵn sàng thay đổi trải nghiệm khách hàng?",
+      "description": "Liên hệ với đội ngũ của chúng tôi để thảo luận về cách AI có thể giúp doanh nghiệp của bạn phát triển.",
+      "contact": {
+        "email": "Email",
+        "phone": "Điện thoại",
+        "location": "Địa điểm"
+      },
+      "formTitle": "Gửi tin nhắn cho chúng tôi",
+      "form": {
+        "name": "Họ tên",
+        "namePlaceholder": "Nguyễn Văn A",
+        "email": "Email",
+        "emailPlaceholder": "email@congty.com",
+        "company": "Công ty",
+        "companyPlaceholder": "Tên công ty của bạn",
+        "message": "Tin nhắn",
+        "messagePlaceholder": "Hãy cho chúng tôi biết về dự án của bạn...",
+        "submit": "Gửi tin nhắn"
+      }
+    },
+    "footer": {
+      "description": "Xây dựng các giải pháp AI thông minh giúp thay đổi cách doanh nghiệp kết nối với khách hàng.",
+      "product": "Sản phẩm",
+      "company": "Công ty",
+      "legal": "Pháp lý",
+      "links": {
+        "features": "Tính năng",
+        "howItWorks": "Cách hoạt động",
+        "pricing": "Bảng giá",
+        "about": "Về chúng tôi",
+        "blog": "Blog",
+        "careers": "Tuyển dụng",
+        "privacy": "Chính sách bảo mật",
+        "terms": "Điều khoản dịch vụ"
+      },
+      "copyright": "© {year} YourAI. Bảo lưu mọi quyền.",
+      "madeWith": "Được tạo bởi AI"
     }
+  },
+  "Index": {
+    "boilerplateName": "Mẫu Next.js i18n",
+    "title": "Mẫu Next 15 với i18n và Shadcn UI",
+    "description": "Một điểm khởi đầu mạnh mẽ cho ứng dụng web đa ngôn ngữ và có thể truy cập của bạn.",
+    "cloneRepository": "Sao chép Kho lưu trữ",
+    "leaveStar": "Để lại một Sao",
+    "howToUse": "Cách Sử dụng",
+    "gettingStarted": "Bắt Đầu",
+    "installation": "Cài đặt",
+    "howToContribute": "Cách Đóng góp",
+    "omitrtlUsage": "Cách Sử dụng OmitRTL",
+    "OmitRTLInstruction": "Để sử dụng OmitRTL, chỉ cần bọc thành phần mà bạn muốn loại bỏ hỗ trợ RTL bằng thành phần OmitRTL.",
+    "contribute": "Đóng góp",
+    "installationSteps": {
+      "cloneRepository": "Sao chép kho lưu trữ:",
+      "installDependencies": "Cài đặt các thư viện phụ thuộc:",
+      "startDevServer": "Khởi động máy chủ phát triển:"
+    },
+    "contributeSteps": {
+      "fork": "Phân nhánh kho lưu trữ",
+      "createBranch": "Tạo một nhánh mới:",
+      "commit": "Cam kết các thay đổi của bạn:",
+      "push": "Đẩy lên nhánh:",
+      "pullRequest": "Tạo một Yêu cầu Kéo mới"
+    },
+    "error": {
+      "server": "Lỗi Máy chủ Nội bộ",
+      "sorry": "Xin lỗi, chúng tôi gặp sự cố không mong muốn trên máy chủ của mình.",
+      "tryAgain": "Thử lại sau.",
+      "returnHome": "Quay lại trang chủ"
+    }
+  },
+  "Footer": {
+    "copyright": "© 2025 Mẫu Next.js i18n. Mã nguồn mở theo giấy phép MIT.",
+    "githubLink": "GitHub"
+  },
+  "Metadata": {
+    "title": "YourAI - Chatbot AI thông minh cho Doanh nghiệp",
+    "description": "Chuyển đổi tương tác khách hàng với chatbot AI tiên tiến. Tự động hóa hỗ trợ, tăng tương tác và mở rộng doanh nghiệp 24/7.",
+    "keywords": "chatbot AI, hỗ trợ khách hàng, trí tuệ nhân tạo, tự động hóa doanh nghiệp, AI hội thoại, trợ lý ảo"
+  }
 }

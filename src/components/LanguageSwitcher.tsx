@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
     setCurrentLanguage(savedLanguage);
 
     const urlLanguage = pathname.split("/")[1];
-    if (["en", "ar", "zh", "es", "ja", "vi"].includes(urlLanguage)) {
+    if (["en", "vi"].includes(urlLanguage)) {
       setCurrentLanguage(urlLanguage);
     }
   }, [pathname]);
@@ -35,7 +35,7 @@ const LanguageSwitcher = () => {
     document.cookie = `NEXT_LOCALE=${newLanguage}; path=/;`;
 
     const segments = pathname.split("/");
-    if (["en", "ar", "zh", "es", "ja", "vi"].includes(segments[1])) {
+    if (["en", "vi"].includes(segments[1])) {
       segments[1] = newLanguage;
     } else {
       segments.splice(1, 0, newLanguage);
@@ -47,15 +47,11 @@ const LanguageSwitcher = () => {
 
   const languageLabels = {
     en: "English",
-    ar: "العربية",
-    zh: "中文",
-    es: "Español",
-    ja: "日本語",
     vi: "Tiếng Việt",
   };
 
   return (
-    <DropdownMenu dir={currentLanguage === "ar" ? "rtl" : "ltr"}>
+    <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="outline" size="sm">
           {languageLabels[currentLanguage as keyof typeof languageLabels]}
@@ -64,18 +60,6 @@ const LanguageSwitcher = () => {
       <DropdownMenuContent align="end">
         <DropdownMenuItem onClick={() => changeLanguage("en")}>
           English
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => changeLanguage("ar")}>
-          العربية
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => changeLanguage("zh")}>
-          中文
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => changeLanguage("es")}>
-          Español
-        </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => changeLanguage("ja")}>
-          日本語
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => changeLanguage("vi")}>
           Tiếng Việt
